@@ -1,0 +1,78 @@
+/*
+    <div class="surveyForm">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+    <form action="#" id="survey-form">
+        <label id="name-label">Name: <input type="text" name="Name" id="name" placeholder="Enter your Name"></label>
+        <br>
+        <label id="email-label">Email: <input type="email" name="Email" id="email" placeholder="Enter your Email"></label>
+        <br>
+        <label id="number-label">Age: <input type="number" name="Age" id="number" min="13" max="120" placeholder="Enter your Age"></label>
+
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <select name="Select" id="dropdown">
+            <option value="select">(select an option)</option>
+            <option value="challenges" name="Challenges">Challenges</option>
+            <option value="maybe">Maybe</option>
+            <option value="NotSure">Not sure</option>
+        </select>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label><input type="radio" name="form" id="definitely" value="definitely"> Definitely</label>
+        <label><input type="radio" name="form" id="maybe" value="definitely"> Maybe</label>
+
+        <label>What would you like to see improved?</label>
+        <label><input type="checkbox"> Front-end Projects</label>
+        <label><input type="checkbox"> Back-end Projects</label>
+
+        <label>Any Changes Please Comment below:-</label>
+        <label><textarea name="Comments" id="survey-comment" cols="50" rows="10" placeholder="Enter your comments here..."></textarea></label>
+        <label><button type="submit">Submit</button></label>
+    </form>
+</div>
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;   /*Line height between each line*/
+    background-color: #d7d7d7;
+    width: 500px;/*changing the width of the whole body*/
+    margin: auto;
+}
+
+/*creating style to the form element and under all elements */
+form{
+    background: rgba(116, 53, 53, 0.3);
+    padding: 2em 2em;  /*element's padding area is space between content and border padding follows top|right|bottom|left */
+    border-radius: 12px;/*this property is used to set curvy edges to the sides of the form*/
+    width: 500px;   /*specifes the width area (_) and height area means(|)*/
+    margin: auto;/*top|right|bottom|left*/
+}
+
+.submit{
+    width: 100%;/*increasing the width of the button*/
+    padding: 0.75rem;/*setting space between content and border*/
+    background-color: gray;/*for background color of the button*/
+    color: whitesmoke;/*text color*/
+    border-radius: 20px;/*cutting the edges of the button*/
+    cursor: pointer;/*when mouse pointer over the button it has to change to pointer👆*/
+}
+
+.Input-Elements{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.inputs-elements{
+    display: block;
+    width: 90%;
+    padding: 0.25rem 0.75rem;
+    height: 2rem;
+    background-color: #7cffe9b8;
+    border: 1px solid #7cffe9b8;
+    border-radius: 10px;
+}
