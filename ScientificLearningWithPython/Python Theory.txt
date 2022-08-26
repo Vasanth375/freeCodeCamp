@@ -1,0 +1,25 @@
+What is the purpose of the "def" keyword in Python?
+--It indicates the start of a function, and the following indented section of code is to be stored for later.
+
+0 is 0.0 - will evaluates False
+
+What is used to indicate a new line in a string?
+--\n
+
+What does the word 'continue' do in the middle of a loop?
+--Skips to the next Iteration of the loop
+
+Which method is used to add an item at the end of a list?
+--append() of List class
+
+What does n equal in this code?
+
+words = 'His e-mail is q-lar@freecodecamp.org'
+pieces = words.split()
+parts = pieces[3].split('-')
+n = parts[1]
+--lar@freecodecamp.org
+
+What will search for a "$" in a regular expression?
+--\$
+
