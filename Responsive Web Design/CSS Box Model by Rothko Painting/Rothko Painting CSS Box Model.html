@@ -1,0 +1,44 @@
+<!-- In the CSS box model, every HTML element is treated as a box with four areas.
+Imagine you receive a box from your favorite online retailer -- the content is the item in the box, or in our case, 
+a header, paragraph, or image element. Image URL(https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-2.png)
+The content is surrounded by a space called padding, similar to how bubble wrap separates an item from the box around it.
+Think of the border like the cardboard box your item was shipped in. 
+
+Img url(https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-3.png)
+Margin is the area outside of the box, and can be used to control the space between other boxes or elements.
+Here the bottom element has a larger top margin, pushing it further down the page.
+Now that you understand the CSS box model, let's get started on the Rothko painting.
+
+Every painting needs a frame
+
+padding is to adjust the spacing within an element. padding shorthand will increase the space between .frame and .canvas. 
+The shorthand will increase space in the top, bottom, left, and right of the element's border and canvas within.
+
+margins to adjust the spacing outside of an element.
+vertical margin of 20px, and horizontal margin of auto. This will move the frame down 20 pixels and horizontally center it on the page.
+
+The border-radius property accepts up to four values to round the top-left, top-right, bottom-right, and bottom-left corners.
+Ex: border-radius: 30px 25px 60px 12px;
+
+Rotate each rectangle to give them more of an imperfect, hand-painted look. 
+Use the transform property on the .one selector to rotate it counter clockwise by 0.6 degrees.
+Ex: transform: rotate(-0.6deg); counter clock means minus(-) image transforms from right to left, only clockwise left to right positive(+)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rothko Painting</title>
+    <link href="./RothkoPainting.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="frame">
+      <div class="canvas">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </div>
+  </body>
+</html>
