@@ -1,0 +1,69 @@
+<!-- lang attribute to your html element. This will assist screen readers in identifying the language of the page.
+meta element it is used to specify information about the page, such as the title, description, keywords, and author.
+The charset attribute specifies the character encoding of the page, and, nowadays, UTF-8 is the only encoding supported by most browsers. 
+a viewport definition tells the browser how to render the page. Including one betters visual accessibility on mobile, 
+and improves SEO (search engine optimization). viewport definition with a content attribute detailing the width and initial-scale of the page.
+important meta element for accessibility and SEO is the description definition. 
+The value of the content attribute is used by search engines to provide a description of your page.
+the title element is useful for screen readers to understand the content of a page. 
+Furthermore, it is an important part of SEO.
+
+Navigation is a core part of accessibility, and screen readers rely on you to provide the structure of your page. 
+This is accomplished with semantic HTML elements.
+Add a header and a main element to your page.
+The header element will be used to introduce the page, as well as provide a navigation menu.
+The main element will contain the core content of your page.
+
+A useful property of an SVG (scalable vector graphics) is that it contains a path attribute which allows the image to be scaled without 
+affecting the resolution of the resultant image.
+
+the aspect-ratio property to set the desired aspect ratio
+
+To increase the page accessibility, the role attribute can be used to indicate the purpose behind an element on the page to assistive 
+technologies. The role attribute is a part of the Web Accessibility Initiative (WAI), and accepts preset values.
+
+Every region role requires a visible label, which should be referenced by the aria-labelledby attribute.
+
+Typeface plays an important role in the accessibility of a page. Some fonts are easier to read than others, and this is especially true on 
+low-resolution screens.
+
+Verdana, and use another web-safe font in the sans-serif family as a fallback.
+
+It is important to link each input to the corresponding label element. This provides assistive technology users with a visual reference to 
+the input.
+
+Keeping in mind best-practices for form inputs, give each input an appropriate type and name attribute. 
+
+Even though you added a placeholder to the first input element in the previous lesson, this is actually not a best-practice for accessibility;
+too often, users confuse the placeholder text with an actual input value - they think there is already a value in the input.
+
+Although not required for label elements with a nested input, it is still best-practice to explicitly link a label with its corresponding 
+input element.
+Link the label elements with their corresponding input elements.
+To Link You should give the first label a for attribute matching the id of its input element.
+
+To link any element with label make the for attribute of label and id attribute of the element 
+
+Two final semantic HTML elements for this project are the footer and address elements. 
+The footer element is a container for a collection of content that is related to the page, and the address element is a container for contact 
+information for the author of the page.
+
+On the topic of visual accessibility, contrast between elements is a key factor. For example, the contrast between the text and 
+the background of a heading should be at least 4.5:1.
+
+To remove underline for an anchor tag set text-decoration to none
+
+Tidy up the header, by using Flexbox to put space between the children, and vertically center them.
+
+To remove the border give it none value
+To remove padding set it to 0
+To remove a list style set it to none
+
+use Flexbox to horizontally center the text.
+properties:
+display: flex;
+justify-content: center;
+
+
+
+-->
